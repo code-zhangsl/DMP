@@ -2,7 +2,7 @@ package com.cmcc.dmp.label
 
 import com.cmcc.dmp.Utils.{DmpLOGObjrct, HBaseUtils, LabelUtils, SparkHelper}
 import com.cmcc.dmp.label.businessLabel.getBusinessLabelTest
-import com.typesafe.config.ConfigFactory
+
 import org.apache.commons.lang3.StringUtils
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.{SparkConf, SparkContext}
